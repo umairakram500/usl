@@ -1,0 +1,81 @@
+<!-- Header -->
+<header id="home">
+  <!-- Background Image -->
+  <div class="bg-img" style="background-image: url('./assets/img/background1.jpg');">
+    <div class="overlay"></div>
+  </div>
+  <!-- /Background Image -->
+
+  <!-- Nav -->
+  <nav id="nav" class="navbar nav-transparent" [class.open]="nav">
+    <div class="container">
+      <div class="col-xs-12">
+
+      <div class="navbar-header">
+        <!-- Logo -->
+        <div class="navbar-brand">
+          <a href="./">
+            <img class="logo" src="./assets/img/logo.png" alt="logo" />
+            <img class="logo-alt" src="./assets/img/logo-alt.png" alt="logo" />
+          </a>
+        </div>
+        <!-- /Logo -->
+
+        <!-- Collapse nav button -->
+        <div class="nav-collapse" (click)="navAction()">
+          <span></span>
+        </div>
+        <!-- /Collapse nav button -->
+      </div>
+
+      <!--  Main navigation  -->
+      <ul class="main-nav nav navbar-nav navbar-right">
+        <li><a href="#home">Home </a></li>
+        <li><a href="#about">About </a></li>
+        <li><a href="#portfolio">Portfolio </a></li>
+        <li><a href="#service">Services </a></li>
+        <li><a href="#features">Our Values </a></li>
+        <li><a href="#contact">Contact </a></li>
+      </ul>
+      <!-- /Main navigation -->
+    </div>
+    </div>
+  </nav>
+  <!-- /Nav -->
+
+  <!-- home wrapper -->
+  <div class="home-wrapper">
+    <div class="container">
+      <div class="row">
+
+        <!-- home content -->
+        <div class="col-md-10 col-md-offset-1">
+          <div class="home-content">
+            <h1 class="white-text"><!--INVICTUS --><br> Meet Tomorrow, Today</h1>
+            <h3 class="white-text">When a software helps you dream big, it’s right!<br/>If it’s about developing your future, we like to get
+              involved.</h3>
+           
+           <!-- <h4 class="white-text">If it’s about developing your future, we like to get
+              involved.</h4>-->
+            <a href="#contact" class="white-btn">Get in touch </a>
+            <a href="#about" class="main-btn">About us </a>
+          </div>
+        </div>
+        <!-- /home content -->
+
+      </div>
+    </div>
+  </div>
+  <!-- /home wrapper -->
+
+</header>
+<!-- /Header -->
+
+<ul class="dot-nav">
+    <li><a href="#home"><span>Home</span></a></li>
+    <li><a href="#about"><span>About</span></a></li>
+    <li><a href="#portfolio"><span>Portfolio</span></a></li>
+    <li><a href="#service"><span>Service</span></a></li>
+    <li><a href="#features"><span>Features</span></a></li>
+    <li><a href="#contact"><span>Contact</span></a></li>
+  </ul>
